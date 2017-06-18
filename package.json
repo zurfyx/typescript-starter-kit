@@ -6,7 +6,7 @@
     "email": "zurfyx@gmail.com",
     "url": "zurfyx.com"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -14,7 +14,7 @@
     "build": "tsc",
     "build:clean": "rimraf dist",
     "build:watch": "tsc --watch",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "postpublish": "npm run build:clean",
     "lint": "tslint './src/**/*.{ts,tsx}' --project ./tsconfig.json --type-check",
     "pretest": "npm run build",
@@ -47,6 +47,10 @@
     "tslint-config-airbnb": "^5.1.2",
     "typescript": "^2.3.4"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }

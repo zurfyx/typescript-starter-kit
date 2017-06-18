@@ -1,0 +1,39 @@
+{
+  "name": "typescript-starter-kit",
+  "description": "TypeScript Starter Kit",
+  "author": {
+    "name": "Gerard Rovira Sánchez",
+    "email": "zurfyx@gmail.com",
+    "url": "zurfyx.com"
+  },
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zurfyx/typescript-starter.git"
+  },
+  "keywords": [
+    "typescript",
+    "starter",
+    "library"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zurfyx/typescript-starter/issues"
+  },
+  "homepage": "https://github.com/zurfyx/typescript-starter#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.4.3",
+    "tslint-config-airbnb": "^5.1.2",
+    "typescript": "^2.3.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

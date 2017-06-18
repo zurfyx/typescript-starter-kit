@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zurfyx/typescript-starter.git"
+    "url": "git+https://github.com/zurfyx/typescript-starter-kit.git"
   },
   "keywords": [
     "typescript",
@@ -33,9 +33,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zurfyx/typescript-starter/issues"
+    "url": "https://github.com/zurfyx/typescript-starter-kit/issues"
   },
-  "homepage": "https://github.com/zurfyx/typescript-starter#readme",
+  "homepage": "https://github.com/zurfyx/typescript-starter-kit#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^20.0.0",

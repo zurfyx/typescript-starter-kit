@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/zurfyx/typescript-starter-kit.svg?branch=master)](https://travis-ci.org/zurfyx/typescript-starter-kit)
 [![David](https://david-dm.org/zurfyx/typescript-starter-kit.svg)](https://david-dm.org/zurfyx/typescript-starter-kit)
 [![David](https://david-dm.org/zurfyx/typescript-starter-kit/dev-status.svg)](https://david-dm.org/zurfyx/typescript-starter-kit#info=devDependencies)
-[![codecov](https://codecov.io/gh/zurfyx/typescript-starter-kit/branch/master/graph/badge.svg)](https://codecov.io/gh/zurfyx/typescript-starter-kit)
+[![Coverage Status](https://coveralls.io/repos/github/zurfyx/typescript-starter-kit/badge.svg?branch=master)](https://coveralls.io/github/zurfyx/typescript-starter-kit?branch=master)
 [![Code Climate](https://codeclimate.com/github/zurfyx/typescript-starter-kit/badges/gpa.svg)](https://codeclimate.com/github/zurfyx/typescript-starter-kit)
 
 ## Features

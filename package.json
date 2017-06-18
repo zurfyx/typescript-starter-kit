@@ -10,11 +10,17 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "prebuild": "npm run build:clean",
     "build": "tsc",
+    "build:clean": "rimraf dist",
     "build:watch": "tsc --watch",
+    "prepublish": "npm run build",
+    "postpublish": "npm run build:clean",
     "lint": "tslint './src/**/*.{ts,tsx}' --project ./tsconfig.json --type-check",
-    "test": "jest ",
-    "coverage": "jest --coverage"
+    "pretest": "npm run build",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "check": "npm-run-all test lint build:clean"
   },
   "repository": {
     "type": "git",
@@ -34,6 +40,8 @@
   "devDependencies": {
     "@types/jest": "^20.0.0",
     "jest": "^20.0.4",
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1",
     "ts-jest": "^20.0.6",
     "tslint": "^5.4.3",
     "tslint-config-airbnb": "^5.1.2",

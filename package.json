@@ -11,7 +11,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "build:watch": "tsc --watch"
+    "build:watch": "tsc --watch",
+    "lint": "tslint './src/**/*.ts' --project ./tsconfig.json --type-check"
   },
   "repository": {
     "type": "git",

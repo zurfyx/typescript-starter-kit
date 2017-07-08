@@ -2,6 +2,7 @@
 
 > A starter kit for building a (library|framework|app) with TypeScript.
 
+[![npm Version](https://img.shields.io/npm/v/typescript-starter-kit.svg)](https://www.npmjs.com/package/typescript-starter-kit)
 [![Build Status](https://travis-ci.org/zurfyx/typescript-starter-kit.svg?branch=master)](https://travis-ci.org/zurfyx/typescript-starter-kit)
 [![David](https://david-dm.org/zurfyx/typescript-starter-kit.svg)](https://david-dm.org/zurfyx/typescript-starter-kit)
 [![David](https://david-dm.org/zurfyx/typescript-starter-kit/dev-status.svg)](https://david-dm.org/zurfyx/typescript-starter-kit#info=devDependencies)
